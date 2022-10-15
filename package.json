@@ -1,0 +1,22 @@
+{
+  "name": "crmgraphql",
+  "version": "1.0.0",
+  "description": "CRM With GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Michael Ponce",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.10.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
